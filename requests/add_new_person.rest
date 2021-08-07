@@ -1,0 +1,20 @@
+POST http://localhost:3001/api/persons/5
+Content-Type: application/json
+
+
+{
+    "name": "Elon Musk",
+    "number": "12-34-73514"
+}
+
+# Error: Name or number is missing
+# {
+#     "name": "Arto Hellas",
+#     "number": ""
+# }
+
+# Error: Name must be unique
+# {
+#     "name": "Arto Hellas",
+#     "number": "123456"
+# }
