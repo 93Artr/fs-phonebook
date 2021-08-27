@@ -1,0 +1,5 @@
+build
+phonefront
+node_modules
+mongo.js
+.eslintrc.js
